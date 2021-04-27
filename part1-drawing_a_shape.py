@@ -2,9 +2,9 @@
 
 print('Hello World')
 
-print("    /|")
-print("   / |")
-print("  /  |")
-print(" /___|")
-print("/____|")
-
+print("     /|")
+print("    / |")
+print("   /  |")
+print("  /   |")
+print(" /    |")
+print("/_____|")
