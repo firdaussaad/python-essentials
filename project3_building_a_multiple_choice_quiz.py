@@ -30,3 +30,17 @@ def run_test(questions):
 
 
 run_test(questions)
+
+def play_again():
+    response = input("Do you want to play again? Yes or No: ")
+    response = response.upper()
+
+    if response == "YES":
+        return True
+    else:
+        return False
+
+while play_again():
+    run_test(questions)
+
+print("Byeeeeee")
